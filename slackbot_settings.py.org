@@ -1,0 +1,7 @@
+API_TOKEN = ''
+
+DEFAULT_REPLY = 'よくわかりません。。'
+
+PLUGINS = [
+    'plugins',
+]
