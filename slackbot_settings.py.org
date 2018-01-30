@@ -1,7 +1,10 @@
 API_TOKEN = ''
 
-DEFAULT_REPLY = 'よくわかりません。。'
+DEFAULT_REPLY = ''
+ERRORS_TO = ''
 
 PLUGINS = [
     'plugins',
 ]
+
+YAHOO_APP_ID = ''
