@@ -8,3 +8,5 @@ PLUGINS = [
 ]
 
 YAHOO_APP_ID = ''
+
+TODOIST_TOKEN = ''
