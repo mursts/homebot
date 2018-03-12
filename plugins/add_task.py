@@ -18,7 +18,8 @@ def add_todoist_item(content, due_date):
                  'uuid': str(uuid.uuid1()),
                  'temp_id': str(uuid.uuid1()),
                  'args': {'content': content,
-                          'date_string': due_date}}]
+                          'date_string': due_date,
+                          'auto_reminder': True}}]
 
     payload = {'token': slackbot_settings.TODOIST_TOKEN,
                'commands': json.dumps(commands)}
