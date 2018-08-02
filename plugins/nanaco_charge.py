@@ -7,7 +7,6 @@ from slackbot.bot import respond_to
 
 
 @respond_to('nanaco charge (.*)')
-@respond_to('nanaco c (.*)')
 @respond_to('nanaco チャージ (.*)')
 def charge(message, amount):
     try:
@@ -29,7 +28,6 @@ def charge(message, amount):
 
 
 @respond_to('nanaco now')
-@respond_to('nanaco n')
 def charge(message):
     mynanaco = Nanaco()
     mynanaco.login(slackbot_settings.NANACO_NUMBER, slackbot_settings.CARD_NUMBER)
