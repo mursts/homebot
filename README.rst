@@ -25,10 +25,10 @@ nanaco
 
 nanacoの残高照会、チャージを行う
 
-```
-@bot nanaco charge 1000
-@bot nanaco now
-```
+.. code-block:: sh
+
+  @bot nanaco charge 1000
+  @bot nanaco now
 
 使い方
 ==============================
