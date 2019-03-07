@@ -17,3 +17,6 @@ TODOIST_TOKEN = os.environ.get('TODOIST_TOKEN', '')
 NANACO_NUMBER = os.environ.get('NANACO_NUMBER', '')
 CARD_NUMBER = os.environ.get('CARD_NUMBER', '')
 CREDIT_CHARGE_PASSWORD = os.environ.get('CREDIT_CHARGE_PASSWORD', '')
+
+# google home notifier
+GOOGLE_HOME_NOTIFIER_URL = os.environ.get('GOOGLE_HOME_NOTIFIER_URL', '')
