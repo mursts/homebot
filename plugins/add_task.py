@@ -10,7 +10,7 @@ from slackbot.bot import listen_to
 
 import slackbot_settings
 
-ENDPOINT = 'https://todoist.com/api/v7/sync'
+ENDPOINT = 'https://todoist.com/api/v8/sync'
 
 
 def add_todoist_item(content, due_date):
